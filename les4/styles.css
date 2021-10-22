@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(224, 230, 230);
+    font-size: 16px;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Делаем p коричневым и курсивом */
+/* p{ */
+    /* color:midnightblue; */
+    /* font-style: italic; */
+/* } */
+
+ .description img{
+    /* position: fixed; */
+    margin-top: 20px;
+    margin-left: 16px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(0,0,0,25);
+} 
+.description{
+    /* display:flex; */
+}
+
+.description img:hover{
+    background-color:rgb(155, 185, 155) ;
+}
+
+.description p{
+    color: rgb(112,112,112);
+    font-style: italic;
+}
+
+.main{
+    width: 80%;
+}
